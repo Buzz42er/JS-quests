@@ -13,8 +13,8 @@
 //create function that creates tamplate for more readable output
 function countryCard(){
     //values got form readLine()
-    var country = 'France';
-    var capital = 'Paris';
+    var country = prompt('Country');
+    var capital = prompt('Capital');
     //var for tamplate
     let card = `Name: ${country}, Capital: ${capital}`
     //call tamplate
@@ -42,3 +42,4 @@ function countryCard(country, capital){
     //use backtick (` `) for template literal
     
 }
+main()
